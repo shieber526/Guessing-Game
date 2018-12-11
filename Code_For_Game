@@ -1,0 +1,12 @@
+def main():
+    print("I'm thinking of a number between 1 and 4")
+    guess = input("What is the number? ")
+    guess_game(guess)
+    
+def guess_game(guess):
+    if guess == 1 or 3 or 4:
+        print("You've stumped me!!")
+    else:
+        print("I knew you were going to say 2")
+        
+main()
